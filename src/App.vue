@@ -1,12 +1,12 @@
-import Modal from './components/Post.vue'
-
-<template>
-  <h1 class="text-[100px] text-center m-auto text-red underline"> Hello Vue JS </h1>
-</template>
-
-<script>
-
+<script setup>
+import Footer from "./components/Footer.vue";
 </script>
 
-<style scoped>
-</style>
+<template>
+  <h1 class="text-[100px] text-center m-auto text-red underline">
+    Hello Vue JS
+  </h1>
+  <Footer />
+</template>
+
+<style scoped></style>
