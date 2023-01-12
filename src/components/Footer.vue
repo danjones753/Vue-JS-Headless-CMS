@@ -6,7 +6,6 @@
         viewbox="0 0 10 10"
         preserveaspectratio="none"
       >
-        <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
       </svg>
     </div>
     <div class="skew skew-top ml-for-radius">
@@ -15,7 +14,6 @@
         viewbox="0 0 10 10"
         preserveaspectratio="none"
       >
-        <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
       </svg>
     </div>
     <div class="py-20 bg-gray-900 radius-for-skewed">

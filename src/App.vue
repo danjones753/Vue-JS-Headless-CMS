@@ -1,11 +1,10 @@
 <script setup>
 import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <h1 class="text-[100px] text-center m-auto text-red underline">
-    Hello Vue JS
-  </h1>
+  <Header/>
   <Footer />
 </template>
 
