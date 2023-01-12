@@ -166,7 +166,6 @@
         viewbox="0 0 10 10"
         preserveaspectratio="none"
       >
-        <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
       </svg>
     </div>
     <div class="skew skew-bottom ml-for-radius">
@@ -175,7 +174,6 @@
         viewbox="0 0 10 10"
         preserveaspectratio="none"
       >
-        <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
       </svg>
     </div>
   </section>
