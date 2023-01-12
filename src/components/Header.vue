@@ -7,32 +7,16 @@
   <section
     class="pb-8 bg-top bg-cover bg-no-repeat"
     style="
-      background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;h=450&amp;q=80&amp;blend=1e293b&amp;sat=30&amp;blend-mode=multiply');height:100vh;
+      background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;h=450&amp;q=80&amp;blend=1e293b&amp;sat=30&amp;blend-mode=multiply');height:95vh;
     "
   >
     <div class="container px-4 mx-auto">
       <nav class="flex justify-between items-center py-6">
         <a class="text-3xl text-white font-semibold leading-none" href="#">
-          <img
-            class="h-10"
-            src="metis-assets/logos/metis/metis-light-name.svg"
-            alt=""
-            width="auto"
-          />
+          <!-- Add SVG Logo Here -->
         </a>
         <div class="lg:hidden">
-          <button
-            class="navbar-burger flex items-center py-2 px-3 text-blueGray-100 hover:text-blueGray-200 rounded border border-blueGray-200 hover:border-blueGray-300"
-          >
-            <svg
-              class="fill-current h-4 w-4"
-              viewbox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Mobile menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-            </svg>
-          </button>
+          <!-- Hamburger Menu To Be Added -->
         </div>
         <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
           <li>
@@ -75,65 +59,19 @@
       <div class="py-12 text-center">
         <div class="max-w-lg mx-auto mb-8">
           <h2
-            style="font-family: 'Fredoka One', cursive;" class="text-3xl md:text-4xl mb-4 text-white font-bold font-heading"
+            style="font-family: 'Fredoka One', cursive;" class="text-4xl uppercase md:text-5xl mb-4 text-white font-bold font-heading"
           >
             <span>The quick</span>
             <span class="text-blue-600">brown fox</span>
             <span>jumps over the lazy dog.</span>
           </h2>
-          <p class="text-blueGray-400 text-primary text-white leading-relaxed">
-            The quick brown fox jumps over the lazy dog.
-          </p>
         </div>
         <div>
           <a
-            class="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded"
+            class="block uppercase hover:bg-lightblue sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-sm text-white bg-blue text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded"
             href="#"
-            >Check Now</a
-          ><a
-            class="block sm:inline-block py-4 px-8 text-xs text-blueGray-100 hover:text-blueGray-200 text-center font-semibold leading-none border border-blueGray-200 hover:border-blueGray-300 rounded"
-            href="#"
-            >Documentation</a
+            >Discover More</a
           >
-        </div>
-      </div>
-      <div
-        class="flex flex-wrap items-center justify-center max-w-4xl mx-auto pt-12 pb-4"
-      >
-        <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8">
-          <img
-            class="mx-auto"
-            src="metis-assets/logos/brands/tesla.svg"
-            alt=""
-          />
-        </div>
-        <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8">
-          <img
-            class="mx-auto"
-            src="metis-assets/logos/brands/facebook.svg"
-            alt=""
-          />
-        </div>
-        <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8">
-          <img
-            class="mx-auto"
-            src="metis-assets/logos/brands/marvel.svg"
-            alt=""
-          />
-        </div>
-        <div class="w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8">
-          <img
-            class="mx-auto"
-            src="metis-assets/logos/brands/nike.svg"
-            alt=""
-          />
-        </div>
-        <div class="hidden md:block w-1/2 md:w-1/3 lg:w-1/5 px-3 mb-8">
-          <img
-            class="mx-auto"
-            src="metis-assets/logos/brands/airbnb.svg"
-            alt=""
-          />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="py-20 bg-purple-600 radius-for-skewed">
+    <div class="py-20 bg-lightgrey radius-for-skewed">
       <div class="container mx-auto px-4">
         <div
           class="
@@ -16,21 +16,8 @@
               Featured Projects
             </h2>
           </div>
-          <a
-            class="
-              hidden
-              md:inline-block
-              py-2
-              px-6
-              rounded-l-xl rounded-t-xl
-              bg-pink-600
-              hover:bg-pink-700
-              text-gray-50
-              font-bold
-              leading-loose
-              transition
-              duration-200
-            "
+                  <a
+            class="block uppercase hover:bg-lightblue sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-sm text-white bg-blue text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded"
             href="#"
             >View More Projects</a
           >

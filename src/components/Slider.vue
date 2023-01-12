@@ -1,5 +1,5 @@
 <template>
-  <div class="slider">
+  <div class="slider pb-[250px]">
     <div class="slide-track">
       <div class="slide">
         <img

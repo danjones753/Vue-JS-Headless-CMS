@@ -1,5 +1,5 @@
 <template>
-  <section class="relative pt-28 pb-32 bg-black overflow-hidden">
+  <section class="relative pt-28 pb-32 bg-darkblue overflow-hidden">
     <img
       class="absolute left-1/2 top-0 transform -translate-x-1/2"
       src="flaro-assets/images/footers/gradient3.svg"
@@ -112,7 +112,7 @@
           <p
             class="text-sm text-primary text-white text-opacity-50 font-medium leading-relaxed"
           >
-            Copyright &copy; 2022 Flaro. All Rights Reserved
+            Copyright &copy; 2023 DJDevs. All Rights Reserved
           </p>
         </div>
       </div>
