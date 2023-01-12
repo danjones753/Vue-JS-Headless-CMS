@@ -16,38 +16,32 @@
                 Contact us
               </p>
               <h2
-                class="text-6xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
+                class="text-3xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
               >
                 Get connected to grow better business.
               </h2>
             </div>
-            <div class="block">
+            <div class="">
               <p
                 class="mb-4 text-sm text-gray-400 font-bold uppercase tracking-px"
               >
                 Email
               </p>
-              <ul class="mb-14">
-                <li class="text-xl font-semibold leading-normal">
-                  info@email.com
-                </li>
-                <li class="text-xl font-semibold leading-normal">
-                  support@gmail.com
-                </li>
-              </ul>
-              <p
-                class="mb-4 text-sm text-gray-400 font-bold uppercase tracking-px"
-              >
-                Phone
-              </p>
-              <ul>
-                <li class="text-xl font-semibold leading-normal">
-                  +1 848 4125 690
-                </li>
-                <li class="text-xl font-semibold leading-normal">
-                  +1 848 4125 658
-                </li>
-              </ul>
+              <div class="flex">
+                <ul class="mb-14">
+                  <li class="text-xl font-semibold leading-normal">
+                    info@email.com
+                  </li>
+                  <li class="text-xl font-semibold leading-normal">
+                    support@gmail.com
+                  </li>
+                </ul>
+                <p
+                  class="flex mb-4 text-sm text-gray-400 font-bold uppercase tracking-px"
+                >
+                  Email
+                </p>
+              </div>
             </div>
           </div>
         </div>

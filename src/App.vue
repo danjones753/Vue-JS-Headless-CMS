@@ -1,13 +1,19 @@
 <script setup>
-import Footer from "./components/Footer.vue";
-import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue"
+import Header from "./components/Header.vue"
 import Testimonials from "./components/Testimonials.vue"
 import ContactForm from "./components/ContactForm.vue"
+import Portfolio from "./components/Portfolio.vue"
+import About from "./components/About.vue"
+import Slider from "./components/Slider.vue"
+
 </script>
 
 <template>
-
-  <Header/>
+  <Header/> 
+  <About />
+  <Slider />
+  <Portfolio/>
   <Testimonials />
   <ContactForm />
   <Footer />

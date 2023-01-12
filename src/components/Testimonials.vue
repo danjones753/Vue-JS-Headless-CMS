@@ -1,53 +1,113 @@
 <template>
-  <section class="relative py-20 2xl:py-40">
-  <div class="container px-4 mx-auto">
-    <div class="max-w-5xl mx-auto">
-      <div class="flex flex-wrap items-center -mx-4 mb-8">
-        <div class="w-full px-4 mb-20">
-          <span class="text-lg font-bold text-blue-500">Testimonials</span>
+  <section
+    class="py-24 md:pb-28 bg-white"
+    style="
+      background-image: url('flex-ui-assets/elements/pattern-white.svg');
+      background-position: center;
+    "
+  >
+    <div class="container px-4 mx-auto">
+      <div
+        class="
+          flex flex-wrap
+          items-center
+          justify-center
+          lg:justify-between
+          -mx-4
+        "
+      >
+        <div class="w-auto px-4 order-last lg:order-first">
+          <button
+            class="
+              inline-flex
+              items-center
+              justify-center
+              w-12
+              h-12
+              rounded-full
+              bg-coolGray-50
+              hover:bg-coolGray-100
+            "
+          >
+            <svg
+              width="12"
+              height="14"
+              viewbox="0 0 12 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.9999 6H3.4099L6.7099 2.71C6.8982 2.5217 7.00399 2.2663 7.00399 2C7.00399 1.7337 6.8982 1.47831 6.7099 1.29C6.52159 1.1017 6.2662 0.995911 5.9999 0.995911C5.73359 0.995911 5.4782 1.1017 5.2899 1.29L0.289896 6.29C0.198856 6.38511 0.127491 6.49725 0.0798963 6.62C-0.0201217 6.86346 -0.0201217 7.13654 0.0798963 7.38C0.127491 7.50275 0.198856 7.6149 0.289896 7.71L5.2899 12.71C5.38286 12.8037 5.49346 12.8781 5.61532 12.9289C5.73718 12.9797 5.86788 13.0058 5.9999 13.0058C6.13191 13.0058 6.26261 12.9797 6.38447 12.9289C6.50633 12.8781 6.61693 12.8037 6.7099 12.71C6.80363 12.617 6.87802 12.5064 6.92879 12.3846C6.97956 12.2627 7.00569 12.132 7.00569 12C7.00569 11.868 6.97956 11.7373 6.92879 11.6154C6.87802 11.4936 6.80363 11.383 6.7099 11.29L3.4099 8H10.9999C11.2651 8 11.5195 7.89465 11.707 7.70711C11.8945 7.51957 11.9999 7.26522 11.9999 7C11.9999 6.73479 11.8945 6.48043 11.707 6.2929C11.5195 6.10536 11.2651 6 10.9999 6Z"
+                fill="#404F65"
+              ></path>
+            </svg>
+          </button>
         </div>
-        <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
-          <div class="mb-10 pb-14 border-b border-gray-50">
-            <div class="flex flex-wrap">
-              <div class="w-1/5">
-                <img src="zospace-assets/images/quote-blue.svg" alt="">
-              </div>
-              <div class="w-4/5">
-                <h3 class="mb-14 text-4xl lg:text-5xl font-bold font-heading">Zospace has helped us work!</h3>
-                <p class="mb-8 text-lg">The point of using Lorem Ipsum is that it has a more-or-less normal. Vestibulum lectus ex, molestie id erat at, consectetur.</p>
-                <p class="text-lg text-gray-300">Etiam finibus nibh enim, et tempus sem imperdiet eget. Ut blandit, nulla quis tincidunt dignissim, ipsum diam efficitur est, et iaculis.</p>
-              </div>
+        <div class="w-full lg:w-2/6 px-4 mb-12 lg:mb-0">
+          <div class="flex items-center">
+            <img
+              class="w-20 md:w-24 h-20 md:h-24 mr-6 rounded-full"
+              src="flex-ui-assets/images/testimonials/avatar1.png"
+              alt=""
+            />
+            <div>
+              <h3 class="mb-2 text-xl md:text-2xl font-semibold">
+                Darren Dunlap
+              </h3>
+              <span class="text-lg text-coolGray-500 font-medium"
+                >CEO &amp; Founder at Flex.co</span
+              >
             </div>
           </div>
-          <div class="w-4/5 ml-auto">
-            <div class="flex mb-4">
-              <img class="mr-1" src="zospace-assets/images/star-yellow.svg" alt="">
-              <img class="mr-1" src="zospace-assets/images/star-yellow.svg" alt="">
-              <img class="mr-1" src="zospace-assets/images/star-yellow.svg" alt="">
-              <img class="mr-1" src="zospace-assets/images/star-yellow.svg" alt="">
-              <img src="zospace-assets/images/star-light-gray.svg" alt="">
+        </div>
+        <div class="w-full lg:w-2/6 px-4 mb-12 lg:mb-0">
+          <div class="relative pt-12 pb-6 sm:p-6">
+            <img
+              class="absolute top-0 left-0"
+              src="flex-ui-assets/elements/testimonials/quote-top-green.svg"
+              alt=""
+            />
+            <img
+              class="absolute bottom-0 right-0"
+              src="flex-ui-assets/elements/testimonials/quote-down-green.svg"
+              alt=""
+            />
+            <div class="relative">
+              <h2 class="text-2xl font-semibold tracking-tighter">
+                The best solution for anyone who wants to work a flexible
+                schedule but still earn a full-time income.
+              </h2>
             </div>
-            <h4 class="mb-1 text-3xl font-bold">L&eacute;a Herrera</h4>
-            <p>Google</p>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 px-4">
-          <img class="h-64 md:h-96 lg:h-144 mb-10 lg:mb-0 mx-auto rounded-full object-cover object-top" src="https://images.pexels.com/photos/5325840/pexels-photo-5325840.jpeg?q=80&amp;fm=jpg&amp;crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;h=940&amp;w=640" alt="">
+        <div class="w-auto px-4 order-last">
+          <button
+            class="
+              inline-flex
+              items-center
+              justify-center
+              w-12
+              h-12
+              rounded-full
+              bg-coolGray-50
+              hover:bg-coolGray-100
+            "
+          >
+            <svg
+              width="12"
+              height="14"
+              viewbox="0 0 12 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.92 6.62C11.8724 6.49725 11.801 6.38511 11.71 6.29L6.71 1.29C6.61676 1.19676 6.50607 1.1228 6.38425 1.07234C6.26243 1.02188 6.13186 0.995911 6 0.995911C5.7337 0.995911 5.4783 1.1017 5.29 1.29C5.19676 1.38324 5.1228 1.49393 5.07234 1.61575C5.02188 1.73758 4.99591 1.86814 4.99591 2C4.99591 2.2663 5.1017 2.5217 5.29 2.71L8.59 6H1C0.734784 6 0.48043 6.10536 0.292893 6.2929C0.105357 6.48043 0 6.73479 0 7C0 7.26522 0.105357 7.51957 0.292893 7.70711C0.48043 7.89465 0.734784 8 1 8H8.59L5.29 11.29C5.19627 11.383 5.12188 11.4936 5.07111 11.6154C5.02034 11.7373 4.9942 11.868 4.9942 12C4.9942 12.132 5.02034 12.2627 5.07111 12.3846C5.12188 12.5064 5.19627 12.617 5.29 12.71C5.38296 12.8037 5.49356 12.8781 5.61542 12.9289C5.73728 12.9797 5.86799 13.0058 6 13.0058C6.13201 13.0058 6.26272 12.9797 6.38458 12.9289C6.50644 12.8781 6.61704 12.8037 6.71 12.71L11.71 7.71C11.801 7.6149 11.8724 7.50275 11.92 7.38C12.02 7.13654 12.02 6.86346 11.92 6.62Z"
+                fill="#404F65"
+              ></path>
+            </svg>
+          </button>
         </div>
-      </div>
-      <div class="text-center">
-        <button class="inline-flex mr-2 items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
-          <svg width="7" height="14" viewbox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6.84708 12.115C7.05097 12.3207 7.05097 12.6512 6.84708 12.8554C6.64319 13.0596 6.31377 13.0603 6.10987 12.8554L0.152917 6.87493C-0.0509739 6.67074 -0.0509738 6.34026 0.152917 6.13456L6.10988 0.154119C6.31377 -0.0500693 6.64319 -0.0500693 6.84708 0.154119C7.05097 0.359063 7.05097 0.690301 6.84708 0.894489L1.4143 6.50512L6.84708 12.115Z" fill="white"></path>
-          </svg>
-        </button>
-        <button class="inline-flex items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
-          <svg width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0.15292 0.901511C-0.0509709 0.696057 -0.0509709 0.365972 0.15292 0.16203C0.356811 -0.0419136 0.686232 -0.0426689 0.890123 0.16203L6.84708 6.13528C7.05097 6.33923 7.05097 6.66931 6.84708 6.87476L0.890121 12.848C0.686231 13.052 0.35681 13.052 0.152919 12.848C-0.050972 12.6433 -0.0509719 12.3125 0.152919 12.1085L5.5857 6.50465L0.15292 0.901511Z" fill="white"></path>
-          </svg>
-        </button>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </template>
