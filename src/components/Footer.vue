@@ -1,5 +1,5 @@
 <template>
-  <section class="relative pt-28 pb-32 bg-indigo-600 overflow-hidden">
+  <section class="relative pt-28 pb-32 bg-black overflow-hidden">
     <img
       class="absolute left-1/2 top-0 transform -translate-x-1/2"
       src="flaro-assets/images/footers/gradient3.svg"
@@ -10,16 +10,16 @@
         <div class="w-full md:w-1/2 p-8">
           <div class="lg:max-w-sm">
             <h2
-              class="mb-16 text-6xl md:text-7xl text-white font-bold tracking-px-n leading-tight"
+              class="mb-16 text-6xl md:text-7xl text-white text-header font-bold tracking-px-n leading-tight"
             >
               Let&rsquo;s talk about your project.
             </h2>
             <div class="md:inline-block">
               <button
-                class="py-4 px-6 w-full text-indigo-600 font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-white hover:bg-gray-50 transition ease-in-out duration-200"
+                class="py-4 text-primary px-6 w-full text-indigo-600 font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-white hover:bg-gray-50 transition ease-in-out duration-200"
                 type="button"
               >
-                Get A Free Quote
+                GET IN TOUCH
               </button>
             </div>
           </div>
@@ -110,7 +110,7 @@
             </div>
           </div>
           <p
-            class="text-sm text-white text-opacity-50 font-medium leading-relaxed"
+            class="text-sm text-primary text-white text-opacity-50 font-medium leading-relaxed"
           >
             Copyright &copy; 2022 Flaro. All Rights Reserved
           </p>

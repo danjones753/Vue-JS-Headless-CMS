@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    fontFamily: {},
+    fontFamily: {
+        header: ['Fredoka One', 'cursive'],
+        primary: ['Roboto', 'sans-serif'],
+    },
       colors: {
           transparent: 'transparent',
           current: 'currentColor',
@@ -17,11 +20,8 @@ module.exports = {
           white: {
               DEFAULT: '#ffffff',
           },
-          red: {
-              DEFAULT: '#EC1A23',
-          },
-          green: {
-              DEFAULT: '#B3C390',
+          lightgrey: {
+              DEFAULT: '#f3f3f3',
           },
           grey: {
               DEFAULT: '#626262',

@@ -8,26 +8,11 @@
   >
     <div class="container px-4 mx-auto">
       <div
-        class="
-          flex flex-wrap
-          items-center
-          justify-center
-          lg:justify-between
-          -mx-4
-        "
+        class="flex flex-wrap items-center justify-center lg:justify-between -mx-4"
       >
         <div class="w-auto px-4 order-last lg:order-first">
           <button
-            class="
-              inline-flex
-              items-center
-              justify-center
-              w-12
-              h-12
-              rounded-full
-              bg-coolGray-50
-              hover:bg-coolGray-100
-            "
+            class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-coolGray-50 hover:bg-coolGray-100"
           >
             <svg
               width="12"
@@ -82,16 +67,7 @@
         </div>
         <div class="w-auto px-4 order-last">
           <button
-            class="
-              inline-flex
-              items-center
-              justify-center
-              w-12
-              h-12
-              rounded-full
-              bg-coolGray-50
-              hover:bg-coolGray-100
-            "
+            class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-coolGray-50 hover:bg-coolGray-100"
           >
             <svg
               width="12"

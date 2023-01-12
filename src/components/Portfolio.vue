@@ -1,21 +1,5 @@
 <template>
   <section>
-    <div class="skew skew-top mr-for-radius">
-      <svg
-        class="h-8 md:h-12 lg:h-20 w-full text-purple-600"
-        viewbox="0 0 10 10"
-        preserveaspectratio="none"
-      >
-      </svg>
-    </div>
-    <div class="skew skew-top ml-for-radius">
-      <svg
-        class="h-8 md:h-12 lg:h-20 w-full text-purple-600"
-        viewbox="0 0 10 10"
-        preserveaspectratio="none"
-      >
-      </svg>
-    </div>
     <div class="py-20 bg-purple-600 radius-for-skewed">
       <div class="container mx-auto px-4">
         <div
@@ -272,22 +256,6 @@
           >
         </div>
       </div>
-    </div>
-    <div class="skew skew-bottom mr-for-radius">
-      <svg
-        class="h-8 md:h-12 lg:h-20 w-full text-purple-600"
-        viewbox="0 0 10 10"
-        preserveaspectratio="none"
-      >
-      </svg>
-    </div>
-    <div class="skew skew-bottom ml-for-radius">
-      <svg
-        class="h-8 md:h-12 lg:h-20 w-full text-purple-600"
-        viewbox="0 0 10 10"
-        preserveaspectratio="none"
-      >
-      </svg>
     </div>
   </section>
 </template>

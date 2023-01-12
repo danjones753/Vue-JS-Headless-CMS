@@ -16,7 +16,7 @@
                 Contact us
               </p>
               <h2
-                class="text-3xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
+                class="text-xl md:text-8xl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
               >
                 Get connected to grow better business.
               </h2>
@@ -36,11 +36,6 @@
                     support@gmail.com
                   </li>
                 </ul>
-                <p
-                  class="flex mb-4 text-sm text-gray-400 font-bold uppercase tracking-px"
-                >
-                  Email
-                </p>
               </div>
             </div>
           </div>

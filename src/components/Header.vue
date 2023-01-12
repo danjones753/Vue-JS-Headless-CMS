@@ -1,4 +1,9 @@
 <template>
+<header> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</header>
   <section
     class="pb-8 bg-top bg-cover bg-no-repeat"
     style="
@@ -70,13 +75,13 @@
       <div class="py-12 text-center">
         <div class="max-w-lg mx-auto mb-8">
           <h2
-            class="text-3xl md:text-4xl mb-4 text-white font-bold font-heading"
+            style="font-family: 'Fredoka One', cursive;" class="text-3xl md:text-4xl mb-4 text-white font-bold font-heading"
           >
             <span>The quick</span>
             <span class="text-blue-600">brown fox</span>
             <span>jumps over the lazy dog.</span>
           </h2>
-          <p class="text-blueGray-400 leading-relaxed">
+          <p class="text-blueGray-400 text-primary text-white leading-relaxed">
             The quick brown fox jumps over the lazy dog.
           </p>
         </div>
