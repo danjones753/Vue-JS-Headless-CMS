@@ -1,10 +1,10 @@
 <template>
-  <section class="relative py-20 2xl:py-40">
+  <section id="about" class="relative py-20 2xl:py-40">
   <div class="container px-4 mx-auto">
     <div class="max-w-5xl mx-auto">
       <div class="flex flex-wrap items-center -mx-4 mb-8">
         <div class="w-full px-4 mb-20">
-          <span class="text-lg text-primary uppercase font-bold text-blue-500">About Me</span>
+          <span class="text-lg uppercase font-bold font-primary text-blue-500">About Me</span>
         </div>
         <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
           <div class="mb-10 pb-14 border-b border-gray-50">
@@ -13,9 +13,9 @@
                 <img src="zospace-assets/images/quote-blue.svg" alt="">
               </div>
               <div class="w-4/5">
-                <h3 class="mb-14 leading-[69px] text-4xl lg:text-5xl font-bold font-heading">Zospace has helped us work!</h3>
-                <p class="mb-8 text-lg">The point of using Lorem Ipsum is that it has a more-or-less normal. Vestibulum lectus ex, molestie id erat at, consectetur.</p>
-                <p class="text-lg text-gray-300">Etiam finibus nibh enim, et tempus sem imperdiet eget. Ut blandit, nulla quis tincidunt dignissim, ipsum diam efficitur est, et iaculis.</p>
+                <h3 class="mb-14 leading-[69px] text-4xl lg:text-5xl font-bold font-header">Zospace has helped us work!</h3>
+                <p class="mb-8 text-lg font-primary">The point of using Lorem Ipsum is that it has a more-or-less normal. Vestibulum lectus ex, molestie id erat at, consectetur.</p>
+                <p class="text-lg text-gray-300 font-primary">Etiam finibus nibh enim, et tempus sem imperdiet eget. Ut blandit, nulla quis tincidunt dignissim, ipsum diam efficitur est, et iaculis.</p>
               </div>
             </div>
           </div>

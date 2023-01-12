@@ -1,65 +1,62 @@
+<script setup>
+
+// import Hamburger from './components/Hamburger.vue'
+
+</script>
+
 <template>
-<header> 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-</header>
+  <header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </header>
+  <nav class="flex bg-darkblue text-white  justify-center items-center py-6">
+    <section class="max-w-[1280px]">
+      <a class="text-3xl text-white font-semibold leading-none" href="#">
+        <!-- Add SVG Logo Here -->
+      </a>
+      <div class="lg:hidden">
+        <!-- <Hamburger /> -->
+      </div>
+      <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
+        <li>
+          <a class="font-primary  text-xl uppercase text-white hover:text-lightblue" href="#about"
+            >About Me</a
+          >
+        </li>
+        <li>
+          <a class="font-primary  text-xl uppercase text-white hover:text-lightblue" href="#projects"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="font-primary text-xl uppercase text-white hover:text-lightblue" href="#testimonials"
+            >Testimonials</a
+          >
+        </li>
+        <li>
+          <a class="font-primary text-xl uppercase text-white hover:text-lightblue" href="#contact"
+            >Get In Touch</a
+          >
+        </li>
+      </ul>
+    </section>
+  </nav>
   <section
     class="pb-8 bg-top bg-cover bg-no-repeat"
     style="
-      background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;h=450&amp;q=80&amp;blend=1e293b&amp;sat=30&amp;blend-mode=multiply');height:95vh;
+      background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1050&amp;h=450&amp;q=80&amp;blend=1e293b&amp;sat=30&amp;blend-mode=multiply');
+      height: 85vh;
     "
   >
     <div class="container px-4 mx-auto">
-      <nav class="flex justify-between items-center py-6">
-        <a class="text-3xl text-white font-semibold leading-none" href="#">
-          <!-- Add SVG Logo Here -->
-        </a>
-        <div class="lg:hidden">
-          <!-- Hamburger Menu To Be Added -->
-        </div>
-        <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
-          <li>
-            <a
-              class="text-sm text-blueGray-100 hover:text-blueGray-200"
-              href="#"
-              >Product</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-sm text-blueGray-100 hover:text-blueGray-200"
-              href="#"
-              >Company</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-sm text-blueGray-100 hover:text-blueGray-200"
-              href="#"
-              >About Us</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-sm text-blueGray-100 hover:text-blueGray-200"
-              href="#"
-              >Features</a
-            >
-          </li>
-        </ul>
-        <div class="hidden lg:block">
-          <a
-            class="mr-2 inline-block px-4 py-3 text-xs text-blueGray-100 hover:text-blueGray-200 font-semibold leading-none border border-blueGray-200 hover:border-blueGray-300 rounded"
-            href="#"
-            >Log In</a
-          >
-        </div>
-      </nav>
       <div class="py-12 text-center">
         <div class="max-w-lg mx-auto mb-8">
           <h2
-            style="font-family: 'Fredoka One', cursive;" class="text-4xl uppercase md:text-5xl mb-4 text-white font-bold font-heading"
+            class="font-header text-4xl uppercase md:text-5xl mb-4 text-white font-bold font-heading"
           >
             <span>The quick</span>
             <span class="text-blue-600">brown fox</span>
@@ -68,8 +65,8 @@
         </div>
         <div>
           <a
-            class="block uppercase hover:bg-lightblue sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-sm text-white bg-blue text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded"
-            href="#"
+            class="block font-primary uppercase hover:bg-lightblue sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-sm text-white bg-blue text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded"
+            href="#projects"
             >Discover More</a
           >
         </div>
@@ -175,6 +172,3 @@
   </section>
 </template>
 
-<script>
-export default {};
-</script>

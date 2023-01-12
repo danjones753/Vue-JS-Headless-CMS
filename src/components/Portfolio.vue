@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="projects">
     <div class="py-20 bg-lightgrey radius-for-skewed">
       <div class="container mx-auto px-4">
         <div
@@ -12,7 +12,7 @@
           "
         >
           <div class="text-center lg:text-left">
-            <h2 class="text-4xl lg:text-5xl font-bold font-heading text-black">
+            <h2 class="text-4xl lg:text-5xl font-bold font-header text-black">
               Featured Projects
             </h2>
           </div>

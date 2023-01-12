@@ -1,5 +1,5 @@
 <template>
-  <section class="relative py-36 bg-gray-50 overflow-hidden">
+  <section id="contact" class="relative py-36 bg-gray-50 overflow-hidden">
     <img
       class="absolute bottom-0 right-0"
       src="flaro-assets/images/contact/gradient2.svg"
