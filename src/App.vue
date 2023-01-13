@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <Header/> 
+  <Header/>
   <About />
   <Slider />
   <Portfolio/>

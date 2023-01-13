@@ -1,6 +1,16 @@
-<script setup>
+<script>
 
-// import Hamburger from './components/Hamburger.vue'
+  // import Hamburger from "src/components/Hamburger.vue"
+
+  export default {
+  methods: {
+	  progressBar(id) {
+    document.querySelector(id).scrollIntoView({
+        behavior: 'smooth'
+    });
+  	}
+	}
+}
 
 </script>
 
@@ -15,30 +25,30 @@
   </header>
   <nav class="flex bg-darkblue text-white  justify-center items-center py-6">
     <section class="max-w-[1280px]">
-      <a class="text-3xl text-white font-semibold leading-none" href="#">
+      <a class="text-3xl text-white font-semibold leading-none" >
         <!-- Add SVG Logo Here -->
       </a>
-      <div class="lg:hidden">
+      <div class="block">
         <!-- <Hamburger /> -->
       </div>
       <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
         <li>
-          <a class="font-primary  text-xl uppercase text-white hover:text-lightblue" href="#about"
+          <a @click="progressBar('#about')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
             >About Me</a
           >
         </li>
         <li>
-          <a class="font-primary  text-xl uppercase text-white hover:text-lightblue" href="#projects"
+          <a @click="progressBar('#projects')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
             >Projects</a
           >
         </li>
         <li>
-          <a class="font-primary text-xl uppercase text-white hover:text-lightblue" href="#testimonials"
+          <a @click="progressBar('#testimonials')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
             >Testimonials</a
           >
         </li>
         <li>
-          <a class="font-primary text-xl uppercase text-white hover:text-lightblue" href="#contact"
+          <a @click="progressBar('#contact')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
             >Get In Touch</a
           >
         </li>
@@ -52,15 +62,14 @@
       height: 85vh;
     "
   >
-    <div class="container px-4 mx-auto">
+    <div class="container pt-[75px] w-full flex flex-col xl:flex-row items-center justify-around px-4 mx-auto">
       <div class="py-12 text-center">
         <div class="max-w-lg mx-auto mb-8">
           <h2
             class="font-header text-4xl uppercase md:text-5xl mb-4 text-white font-bold font-heading"
           >
-            <span>The quick</span>
-            <span class="text-blue-600">brown fox</span>
-            <span>jumps over the lazy dog.</span>
+            <span>The quick brown fox
+            jumps over the lazy dog.</span>
           </h2>
         </div>
         <div>
@@ -71,6 +80,7 @@
           >
         </div>
       </div>
+      <div class="text-white">this is more text for an image</div>
     </div>
     <div
       class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50"
@@ -92,7 +102,7 @@
           </a>
           <button class="navbar-close">
             <svg
-              class="h-6 w-6 text-blueGray-400 cursor-pointer hover:text-blueGray-500"
+              class="h-6 w-6 text-blueGray-400 cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewbox="0 0 24 24"
@@ -111,28 +121,28 @@
           <ul>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
+                class="block p-4 t hover:bg-blue-50 hover:text-blue-600"
                 href="#"
                 >Product</a
               >
             </li>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
+                class="block p-4 t hover:bg-blue-50 hover:text-blue-600"
                 href="#"
                 >Company</a
               >
             </li>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
+                class="block p-4 t hover:bg-blue-50 hover:text-blue-600"
                 href="#"
                 >About Us</a
               >
             </li>
             <li class="mb-1">
               <a
-                class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-600"
+                class="block p-4 t hover:bg-blue-50 hover:text-blue-600"
                 href="#"
                 >Features</a
               >
@@ -171,4 +181,5 @@
     </div>
   </section>
 </template>
+
 

@@ -1,3 +1,7 @@
+<script>
+export default {}
+</script>
+
 <template>
   <section class="relative pt-28 pb-32 bg-darkblue overflow-hidden">
     <img
@@ -119,7 +123,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {};
-</script>

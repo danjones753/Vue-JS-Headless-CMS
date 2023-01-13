@@ -31,11 +31,7 @@
         </div>
         <div class="w-full lg:w-2/6 px-4 mb-12 lg:mb-0">
           <div class="flex items-center">
-            <img
-              class="w-20 md:w-24 h-20 md:h-24 mr-6 rounded-full"
-              src="flex-ui-assets/images/testimonials/avatar1.png"
-              alt=""
-            />
+            <img src="" alt="">
             <div>
               <h3 class="mb-2 text-xl md:text-2xl font-semibold">
                 Darren Dunlap
