@@ -6,10 +6,12 @@
   import Portfolio from "./components/Portfolio.vue"
   import About from "./components/About.vue"
   import Slider from "./components/Slider.vue"
+  import Hamburger from "./components/Hamburger.vue";
 </script>
 
 <template>
   <Header/>
+  <Hamburger/>
   <About />
   <Slider />
   <Portfolio/>

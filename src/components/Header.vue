@@ -1,17 +1,16 @@
 <script>
 
-  // import Hamburger from "src/components/Hamburger.vue"
+// import Hamburger from "./components/Hamburger.vue";
 
-  export default {
+export default {
   methods: {
-	  progressBar(id) {
-    document.querySelector(id).scrollIntoView({
-        behavior: 'smooth'
-    });
-  	}
-	}
-}
-
+    progressBar(id) {
+      document.querySelector(id).scrollIntoView({
+        behavior: "smooth",
+      });
+    },
+  },
+};
 </script>
 
 <template>
@@ -23,9 +22,9 @@
       rel="stylesheet"
     />
   </header>
-  <nav class="flex bg-darkblue text-white  justify-center items-center py-6">
+  <nav class="flex h-[75px] lg:h-auto bg-darkblue text-white justify-center items-center py-6">
     <section class="max-w-[1280px]">
-      <a class="text-3xl text-white font-semibold leading-none" >
+      <a class="text-3xl text-white font-semibold leading-none">
         <!-- Add SVG Logo Here -->
       </a>
       <div class="block">
@@ -33,22 +32,62 @@
       </div>
       <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
         <li>
-          <a @click="progressBar('#about')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
+          <a
+            @click="progressBar('#about')"
+            class="
+              font-primary
+              cursor
+              tracking-[2px]
+              text-md
+              uppercase
+              text-white
+              hover:text-lightblue
+            "
             >About Me</a
           >
         </li>
         <li>
-          <a @click="progressBar('#projects')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
+          <a
+            @click="progressBar('#projects')"
+            class="
+              font-primary
+              cursor
+              tracking-[2px]
+              text-md
+              uppercase
+              text-white
+              hover:text-lightblue
+            "
             >Projects</a
           >
         </li>
         <li>
-          <a @click="progressBar('#testimonials')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
+          <a
+            @click="progressBar('#testimonials')"
+            class="
+              font-primary
+              cursor
+              tracking-[2px]
+              text-md
+              uppercase
+              text-white
+              hover:text-lightblue
+            "
             >Testimonials</a
           >
         </li>
         <li>
-          <a @click="progressBar('#contact')" class="font-primary cursor tracking-[2px] text-xl uppercase text-white hover:text-lightblue"
+          <a
+            @click="progressBar('#contact')"
+            class="
+              font-primary
+              cursor
+              tracking-[2px]
+              text-md
+              uppercase
+              text-white
+              hover:text-lightblue
+            "
             >Get In Touch</a
           >
         </li>
@@ -62,19 +101,56 @@
       height: 85vh;
     "
   >
-    <div class="container pt-[75px] w-full flex flex-col xl:flex-row items-center justify-around px-4 mx-auto">
+    <div
+      class="
+        container
+        pt-[75px]
+        w-full
+        flex flex-col
+        xl:flex-row
+        items-center
+        justify-around
+        px-4
+        mx-auto
+      "
+    >
       <div class="py-12 text-center">
         <div class="max-w-lg mx-auto mb-8">
           <h2
-            class="font-header text-4xl uppercase md:text-5xl mb-4 text-white font-bold font-heading"
+            class="
+              font-header
+              text-4xl
+              uppercase
+              md:text-5xl
+              mb-4
+              text-white
+              font-bold font-heading
+            "
           >
-            <span>The quick brown fox
-            jumps over the lazy dog.</span>
+            <span>The quick brown fox jumps over the lazy dog.</span>
           </h2>
         </div>
         <div>
           <a
-            class="block font-primary uppercase hover:bg-lightblue sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-sm text-white bg-blue text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded"
+            class="
+              block
+              font-primary
+              uppercase
+              hover:bg-lightblue
+              sm:inline-block
+              py-4
+              px-8
+              mb-4
+              sm:mb-0 sm:mr-3
+              text-sm text-white
+              bg-blue
+              text-center
+              font-semibold
+              leading-none
+              bg-blue-600
+              hover:bg-blue-700
+              rounded
+            "
             href="#projects"
             >Discover More</a
           >
@@ -89,7 +165,17 @@
         class="navbar-backdrop fixed inset-0 bg-blueGray-800 opacity-25"
       ></div>
       <nav
-        class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto"
+        class="
+          relative
+          flex flex-col
+          py-6
+          px-6
+          w-full
+          h-full
+          bg-white
+          border-r
+          overflow-y-auto
+        "
       >
         <div class="flex items-center mb-8">
           <a class="mr-auto text-3xl font-semibold leading-none" href="#">
@@ -150,11 +236,35 @@
           </ul>
           <div class="mt-4 pt-6 border-t border-blueGray-100">
             <a
-              class="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-600 hover:bg-blue-700 text-white rounded"
+              class="
+                block
+                px-4
+                py-3
+                mb-3
+                text-xs text-center
+                font-semibold
+                leading-none
+                bg-blue-600
+                hover:bg-blue-700
+                text-white
+                rounded
+              "
               href="#"
               >Sign Up</a
             ><a
-              class="block px-4 py-3 mb-2 text-xs text-center text-blue-600 hover:text-blue-700 font-semibold leading-none border border-blue-200 hover:border-blue-300 rounded"
+              class="
+                block
+                px-4
+                py-3
+                mb-2
+                text-xs text-center text-blue-600
+                hover:text-blue-700
+                font-semibold
+                leading-none
+                border border-blue-200
+                hover:border-blue-300
+                rounded
+              "
               href="#"
               >Log In</a
             >
