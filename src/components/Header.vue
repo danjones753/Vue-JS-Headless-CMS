@@ -1,5 +1,4 @@
 <script>
-
 // import Hamburger from "./components/Hamburger.vue";
 
 export default {
@@ -7,9 +6,9 @@ export default {
     progressBar(id) {
       document.querySelector(id).scrollIntoView({
         behavior: "smooth",
-      });
-    },
-  },
+      })
+    }
+  }
 };
 </script>
 
@@ -22,7 +21,18 @@ export default {
       rel="stylesheet"
     />
   </header>
-  <nav class="flex h-[75px] lg:h-auto bg-darkblue text-white justify-center items-center py-6">
+  <nav
+    class="
+      flex
+      h-[75px]
+      lg:h-auto
+      bg-darkblue
+      text-white
+      justify-center
+      items-center
+      py-6
+    "
+  >
     <section class="max-w-[1280px]">
       <a class="text-3xl text-white font-semibold leading-none">
         <!-- Add SVG Logo Here -->
